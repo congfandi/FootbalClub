@@ -1,4 +1,4 @@
-package com.gentasoft.footballclub.views.detail
+package com.gentasoft.footballclub.ui.detail
 
 import android.graphics.Color
 import android.view.Gravity
@@ -19,7 +19,7 @@ class DetailActivityUI(private val club: Club) : AnkoComponent<DetailActivity> {
                 margin = dip(10)
             }
 
-            textView(club?.name){
+            textView(club.name){
                 textSize = 18f
                 textColor = Color.BLACK
             }.lparams(width = wrapContent){
@@ -27,7 +27,7 @@ class DetailActivityUI(private val club: Club) : AnkoComponent<DetailActivity> {
                 bottomMargin = dip(10)
             }
 
-            textView(club?.desc){
+            textView(club.desc){
                 textSize = 14f
             }.lparams(width = wrapContent){
                 gravity = Gravity.CENTER

@@ -2,7 +2,7 @@ package com.gentasoft.footballclub.activities
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.gentasoft.footballclub.views.main.MainActivityUI
+import com.gentasoft.footballclub.ui.main.MainActivityUI
 import org.jetbrains.anko.*
 
 class MainActivity : AppCompatActivity() {

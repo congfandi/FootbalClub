@@ -1,6 +1,5 @@
-package com.gentasoft.footballclub.views.adapter
+package com.gentasoft.footballclub.ui.adapter
 
-import android.support.v7.widget.RecyclerView
 import android.view.Gravity
 import android.view.View
 import android.view.ViewGroup

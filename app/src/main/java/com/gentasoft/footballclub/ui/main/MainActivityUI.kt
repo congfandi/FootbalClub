@@ -1,4 +1,4 @@
-package com.gentasoft.footballclub.views.main
+package com.gentasoft.footballclub.ui.main
 
 import android.support.v7.widget.LinearLayoutManager
 import com.gentasoft.footballclub.R

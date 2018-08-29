@@ -1,4 +1,4 @@
-package com.gentasoft.footballclub.ui.detail
+package com.gentasoft.footballclub.layouts.detail
 
 import android.graphics.Color
 import android.view.Gravity

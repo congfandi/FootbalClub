@@ -8,7 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
 import com.gentasoft.footballclub.models.Club
-import com.gentasoft.footballclub.ui.adapter.ClubUI
+import com.gentasoft.footballclub.layouts.adapter.ClubUI
 import org.jetbrains.anko.AnkoContext
 
 class ClubAdapter(private val context: Context, private val clusb: List<Club>, private val listener: (Club) -> Unit) : RecyclerView.Adapter<ClubAdapter.ClubHolder>() {

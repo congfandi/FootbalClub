@@ -3,7 +3,7 @@ package com.gentasoft.footballclub.activities
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.gentasoft.footballclub.models.Club
-import com.gentasoft.footballclub.ui.detail.DetailActivityUI
+import com.gentasoft.footballclub.layouts.detail.DetailActivityUI
 import org.jetbrains.anko.*
 
 class DetailActivity : AppCompatActivity() {
